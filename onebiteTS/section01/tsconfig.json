@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 컴파일 결과로 생성되는 JS 버전을 설정함
+    "module": "ESNext", // 모듈 시스템의 버전 설정
+    "outDir": "dist", // 컴파일 후 JS 파일들을 생성할 디렉터리명
+    "strict": false, // 엄격하게 타입을 검사함(ex. 매개변수의 타입 등)
+    "moduleDetection": "force", // 전역으로 판단하지 않고 각 파일을 모듈로 판단함
+    "skipLibCheck": true // @types 버전이 20버전 이상으로 업데이트되면서 특정 라이브러리에서 타입 검사 오류가 발생, 타입 정의 파일(.d.ts 확장자를 갖는 파일)의 타입 검사를 생략
+  },
+  "ts-node": {
+    "esm": true // es 모듈 시스템으로 동작함
+  },
+  "include": ["src"] // 해당 경로 아래에 있는 모든 파일을 한 번에 컴파일해라
+}
