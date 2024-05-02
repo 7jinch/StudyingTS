@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "allowJs": true // ts파일만 허용되지만 js 파일도 가능하도록 허용함
+    // "noImplicitAny": false // 암시적 any를 허용
+  },
+  "include": ["src"]
+}
