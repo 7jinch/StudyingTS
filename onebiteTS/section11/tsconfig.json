@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true, // default로 export 하는 값이 없더라도 허용해주는 옵션
+    "jsx": "react-jsx" // 타입스크립트 컴파일러는 기본적으로 jsx 문법을 해석할 수 없어서 이 옵션을 추가하면 해석할 수 있음
+  },
+  "include": ["src"]
+}
